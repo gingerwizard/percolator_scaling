@@ -1,0 +1,32 @@
+{
+    "mappings": {
+      "saved-search": {
+        "dynamic": "strict",
+        "_source": {
+          "enabled": true
+        },
+        "properties": {
+          "category_id": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "name": {
+            "type": "string",
+            "analyzer": "standard"
+          },
+          "search_terms": {
+            "type": "string",
+            "analyzer": "standard"
+          },
+          "description": {
+            "type": "string",
+            "analyzer": "standard"
+          }
+        }
+      }
+    },
+    "settings": {
+      "number_of_replicas": "0",
+      "number_of_shards": "1"
+    }
+}
