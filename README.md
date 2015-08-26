@@ -183,7 +183,7 @@ For the purposes of testing performance, Documents can be percolated using the s
 
 3. Host and port.  Assumed to be localhost:9200. Changed via the HTTP request
 
-![Changing Percolate Host:Port](link)
+![Changing Percolate Host:Port](https://raw.githubusercontent.com/gingerwizard/percolator_scaling/master/Setting_Host_Port.png)
 
 4. Changing Number of Percolate Samples.  Set to 500 by default. Consider changing if using the larger 1000 sample files. Changed via the Percolate Thread Group:
 
