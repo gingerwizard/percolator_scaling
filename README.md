@@ -175,11 +175,11 @@ For the purposes of testing performance, Documents can be percolated using the s
 
 1. Docs to be used for percolate tests.  Assumes structure of one percolate doc per line in the format highlighted above.  The file read can be changed through the CSV datasource "PercolateQueriesReader" i.e.
 
-![Changing Percolate Document File](link)
+![Changing Percolate Document File](https://raw.githubusercontent.com/gingerwizard/percolator_scaling/master/Setting_Source_File.png)
 
 2. Percolate endpoint. Assumed to be /best_buy/.percolator/_percolate.  If you have you used the indexing script this shouldn't need changing.  If required change via the HTTP request:
 
-![Changing Percolate Endpoint](link)
+![Changing Percolate Endpoint](https://raw.githubusercontent.com/gingerwizard/percolator_scaling/master/Setting_Percolate_Path.png)
 
 3. Host and port.  Assumed to be localhost:9200. Changed via the HTTP request
 
@@ -187,7 +187,7 @@ For the purposes of testing performance, Documents can be percolated using the s
 
 4. Changing Number of Percolate Samples.  Set to 500 by default. Consider changing if using the larger 1000 sample files. Changed via the Percolate Thread Group:
 
-![Changing Percolate Thread Group](link)
+![Changing Number of Samples](https://raw.githubusercontent.com/gingerwizard/percolator_scaling/master/Setting_Loop_Count.png)
 
 ###Blog Tests
 
