@@ -17,7 +17,7 @@ with open('train.csv', 'rb') as csvfile:
         doc_count+=1
         if doc_count >1:
             output.write(json.dumps(query)+"\n")
-        if doc_count == max_count:
+        if doc_count > max_count:
             break;
 output.close()
 print "%s documents"%doc_count
