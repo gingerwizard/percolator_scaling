@@ -8,7 +8,7 @@ It is intended to assist with replication of tests and to demonstrate Percolator
 
 Any use case here is hypothetical. It is assumed each Percolate query represents a users registered interest in a product category, with a set of search terms provided.  Documents are assumed to be new products being listed.  Documents are percolated against the queries thus indicating which users would theoretically be alerted about the product.  No alerting is performed by the tests, which simply percolate the documents sequentially using JMeter.
 
-The following assumes ES 1.7.1
+The following assumes Elasticsearch 1.7.1
 
 ### Data Set and Scripts
 
